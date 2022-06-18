@@ -4,7 +4,7 @@
   </button>
 </template>
 
-<style scoped>
+<style>
 button {
   border: none;
   background: #30346d;

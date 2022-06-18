@@ -2,7 +2,7 @@
   <BaseCard>
     <h2>{{ name }}</h2>
     <p>{{ club }}</p>
-    <p>{{ price }}</p>
+    <p>{{ price }} mln €</p>
     <div class="card-buttons">
       <a :href="profile"><BaseButton>SEE PROFILE</BaseButton></a>
       <BaseButton @click="removeTarget">REMOVE</BaseButton>

@@ -15,12 +15,12 @@
         @remove-target="deleteTarget(target.id)"
       ></Target>
     </div>
-    <keep-alive>
-      <NewTargetTab
+    <keep-alive
+      ><NewTargetTab
         v-if="!targetsTabOpen"
         @save-new-target="fetchNewTarget"
-      ></NewTargetTab>
-    </keep-alive>
+      ></NewTargetTab
+    ></keep-alive>
   </section>
 </template>
 
@@ -43,7 +43,7 @@ export default {
           id: '0001',
           name: 'Djed Spence',
           currentClub: 'Middlesbrough',
-          price: '20 mln euro',
+          price: '20',
           profile:
             'https://www.transfermarkt.pl/djed-spence/profil/spieler/483348',
         },
@@ -52,7 +52,7 @@ export default {
           id: '0002',
           name: 'Christian Eriksen',
           currentClub: 'Brentford FC',
-          price: 'Free',
+          price: '0',
           profile:
             'https://www.transfermarkt.pl/christian-eriksen/profil/spieler/69633',
         },
